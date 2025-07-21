@@ -1,0 +1,302 @@
+$button_color: #4CAF4F;
+
+body{
+    font-family: "inter";
+}
+.btn.Custom{
+    background-color: $button_color;
+    color: white;
+    font-size: 13.14px;
+    font-weight: 500;
+    border-radius: 2.78px;
+    padding: 11.74px 24.27px;
+}
+
+nav{
+    padding: 12px 100px;
+    background-color: white;
+    .nav-link{
+        color: #4D4D4D;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .btn.Custom{
+        padding: 11px 32px;
+        white-space: nowrap;
+    }
+}
+
+span{
+    color: #4CAF4F;
+}
+
+.LandingPage{
+    padding: 66.82px 100.23px;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .intro{
+        font-size: 64.55px;
+        font-weight: 600;
+        color: #4D4D4D;
+        line-height: 70px;
+    }
+    .desc{
+        font-size: 16px;
+        font-weight: 400;
+        color: #717171;
+    }
+    .illustration{
+        min-height: 272.1631774902344px;
+        max-width: 283.3002624511719px;
+    }
+    .Dots{
+        position: relative;
+        top: 60px;
+    }
+}
+
+.title{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+}
+.description{
+    color: #717171;
+}
+.ClientPage{
+    .final_Headings{
+        color: #4D4D4D;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .Slides{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    }
+    .slidebutton{
+        background-color: $button_color;
+        width: 15px;
+        height: 20px;
+        border-radius: 3px;
+    }
+    .ClientCard{
+        box-shadow: 0px 2px 3px 0px #ABBED133;
+        width: 300px;
+        height: 260px;
+        margin-left: 10%;
+        padding: 18px 25px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .ClientCard:hover{
+        background-color: #a6d6a9;
+        transform: translateY(-20px);
+        cursor: pointer;
+    }
+}
+
+.service-section{
+    margin-top: 8%;
+    .description{
+        font-size: 13px;
+    }
+    .local_business{
+        padding: 44.55px 100.23px;
+        background-color: #F5F7FA;
+        .description2{
+            color: #18191F;
+            font-weight: 400;
+        }
+        .title{
+            font-size: 30px;
+        }
+    }
+}
+
+.customer-section{
+    background-color: #F5F7FA;
+    padding: 22.27px 100.23px;
+    .Name{
+        color: #4CAF4F;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .description.Long{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .description.Short{
+        color: #89939E;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.caring-section{
+    .description{
+        width: 610px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        color: #717171;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .OuterBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .textbox{
+            background-color: #F5F7FA;
+            position: relative;
+            bottom: 105px;
+            width: 340px;
+            height: 200px;
+            padding: 18px;
+            border-radius: 6px;
+            .maintext{
+                color: #717171;
+                font-weight: 600;
+                font-size: 22px;
+            }
+            .linktext{
+                color: $button_color;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.credit-section{
+    background-color: #F5F7FA;
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .title{
+            color: #263238;
+            font-size: 60px;
+            font-weight: 600;
+            width: 600px;
+            height: 100px;
+            line-height: 60px;
+        }
+    }
+    .credits{
+        background-color: #263238;
+        padding: 45px 115px;
+        color: white;
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 30px;
+            position: relative;
+            bottom: 10px;
+            .logotitle{
+                font-weight: 600;
+            }
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .words{
+            font-size: 13px;
+            font-weight: 200;
+            color: #F5F7FA;
+        }
+        .col_heading{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .input_text{    
+            input{
+                background-color:#515b60;
+                border-color: #515b60;
+                color: #c8cbd1;
+            }
+            input::placeholder{
+                font-size: 13px;
+                font-weight: 400;
+                color: #c8cbd1;
+            }
+            img{
+                position: relative;
+                left: 90%;
+                bottom: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 984px){
+    .mobile_service{
+        position: relative;
+        left: 50%;
+    }
+    .caring-section{
+        .mobile_image{
+            width: 400px;
+            height: 400px;
+            margin-top: 50px;
+            position: relative;
+            left: 21%;
+        }
+        .Third{
+            margin-bottom: 50px;
+        }
+    }
+    .navbar-nav{
+        position: absolute;
+        left: 80%;
+        background-color: white;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        z-index: 1;
+    }
+    .ClientPage{
+        .mobile_client{
+            position: relative;
+            left: 25%;
+            margin-top: 5%;
+        }
+    }
+    .LandingPage{
+        .intro{
+            font-size: 40px;
+            line-height: 42px;
+        }
+        .illustration{
+           img{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            left: 25%;
+           }
+        }
+    }
+}
+
+@media only screen and (min-width: 985px) and (max-width: 1300px){
+    .LandingPage{
+        .intro{
+            font-size: 50px;
+            line-height: 52px;
+        }
+        .illustration{
+            img{
+                width: 350px;
+                height: 300px;
+            }
+        }
+    }
+}
